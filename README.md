@@ -6,6 +6,7 @@ This is a Homebridge plugin to control your Sharp TV via the rs232 port. This pl
 
 Example Configuration
 -
+
 '''json
 {
     "bridge": {
