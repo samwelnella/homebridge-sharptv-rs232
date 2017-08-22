@@ -1,12 +1,13 @@
-#homebridge-sharptv-rs232
-
-#Introduction
-
+homebridge-sharptv-rs232
+=
+Introduction
+-
 This is a Homebridge plugin to control your Sharp TV via the rs232 port. This plugin can turn the TV on/off, change between HDMI inputs 1-5, and toggle game mode. This plugin has only been tested with a Sharp LC-70UH30U. Game mode toggles between "game" and "movie THX" picture modes, which is only supported by a few Sharp TV models. Change the "AVMD17" command in the code to your desired picture mode if you want game mode to work with Sharp TVs that don't support "movie THX" mode.
 
-##Example Configuration
+Example Configuration
 -
-'{
+'
+{
     "bridge": {
         "name": "Homebridge",
         "username": "XX:XX:XX:XX:XX:XX",
@@ -27,9 +28,10 @@ This is a Homebridge plugin to control your Sharp TV via the rs232 port. This pl
 
     "platforms": [
     ]
-}'
+}
+'
 
-##Accessory Configuration Keys
+Accessory Configuration Keys
 -
 | key             | description                                                                  | example        | default               |
 |-----------------|------------------------------------------------------------------------------|----------------|-----------------------|
