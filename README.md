@@ -8,6 +8,7 @@ Example Configuration
 -
 
 '''json
+
 {
     "bridge": {
         "name": "Homebridge",
@@ -30,6 +31,7 @@ Example Configuration
     "platforms": [
     ]
 }
+
 '''
 
 Accessory Configuration Keys
